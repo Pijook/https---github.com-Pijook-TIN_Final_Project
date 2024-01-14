@@ -1,38 +1,137 @@
-.App {
-  text-align: center;
+html {
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  height: 100%;
+  background-color: rgb(57, 57, 57);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.root {
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.main-box {
+  position: absolute;
+  width: 70%;
+  height: 80%;
+  border: 1px;
+  margin-top: 2%;
+  margin-left: 15%;
+  border: solid 1px black;
+  background-color: white;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.pagination-box {
+  position: absolute;
+  width: 70%;
+  height: 5%;
+  margin-left: 15%;
+  margin-top: 42%;
+  letter-spacing: 5px;
+  text-align: center;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content-box {
+  width: 100%;
+  height: 90%;
+  background-color: black;
+}
+
+.light {
+  background-color: rgb(127, 122, 122);
+}
+
+.dark {
+  background-color: rgb(82, 78, 78);
+}
+
+.clickable:hover {
+  cursor: pointer;
+}
+
+/* Navbar */
+
+.nav-bar {
+  width: 100%;
+  height: 10%;
+  border-bottom: solid 1px black;
+  background-color: rgb(138, 14, 14);
+}
+
+.nav-bar-element {
+  width: 18%;
+  height: 100%;
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  text-align: center;
+  float: left;
+}
+
+.nav-bar-element:hover {
+  cursor: pointer;
+}
+
+/* Rows */
+
+.table-row {
+  width: 100%;
+  height: 20%;
+  border-bottom: solid 1px black;
+}
+
+.text-section {
+  width: 60%;
+  height: 100%;
+  float: left;
+}
+
+.control-section {
+  height: 100%;
+  width: 40%;
+  float: right;
+}
+
+.button {
+  width: 25%;
+  height: 50%;
+  background-color: red;
+  float: left;
+  text-align: center;
+}
+
+.open-create-menu-button {
+  background-color: red;
+  width: 10%;
+  height: 4%;
+  position: absolute;
+  margin-top: 42%;
+  margin-left: 75%;
+}
+
+/* Create team box */
+
+.create-team-box {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  background-color: red;
+}
+
+.create-team-send-button {
+  width: 10%;
+  height: 5%;
+  background-color: white;
+}
+
+.close-button {
+  width: 5%;
+  height: 5%;
+  background-color: white;
+  text-align: center;
+  float: right;
 }
